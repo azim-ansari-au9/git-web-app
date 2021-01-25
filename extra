@@ -1,0 +1,18 @@
+//news api for business
+https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=03aec2052dfc4060914ccae4c84d037b
+
+
+//fetch syntax
+
+fetch(`https://newsapi.org/v2/top-headlines?country=de&category=business&apiKey=03aec2052dfc4060914ccae4c84d037b`)
+.then(function(response){
+    return response.json();
+})
+.then(function(myJson){
+    console.log(JSON.stringify(myJson));
+});
+
+
+ashdbffsdbh
+
+  

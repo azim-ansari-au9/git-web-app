@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+.Footer{
+  height: 50px;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.old{
+  background-color:#d6da04;
+  margin:0px;
+
+}
+.box{
+  margin: 0%;
+  padding: 0%;
+  background-color: #d6da04;
+  font-size: 10px;
+}
+
+.news{
+  background-color: #0c0b0bfa;
+  color: yellow;
+  
+}
+
+.card{
+  background-color: #0c0b0b;
+  font-size: calc(10px + 1.5vmin);
+  color: rgb(255, 255, 14);
+  padding: 1rem;
+  border: rgb(239, 255, 17) 1px dotted;
+  align-items:flex;
+  /* min-height: 84vh; */
+
+}
+.about{
+  min-height: 84vh;
+  background-color: #0c0b0b;
+  font-size: calc(10px + 1.5vmin);
+  color: rgb(255, 255, 14);
+  padding: 1rem;
+  text-align: center;
+  /* background-image: url(user.png); */
+}
+
+
+.news-section{
+  display:flex;
+  padding: 12px;
+  border: rgb(239, 255, 17) 1px dotted;
+}
+.navbar{
+  background-color: yellow;
+}
+.navbar-brand{
+  color: #0c0b0b;
+  font-size: 30px;
+}
+.nav-item{
+  font-size: 20px;
+}
+.userstyle{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;
+}
+.alert-light {
+  background-color: var(--light-color);
+  color: white;
+}
